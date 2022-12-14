@@ -43,7 +43,7 @@ const { createApp } = Vue
 
             nextSlide() {
                 this.activeIndex++;
-                if (this.activeIndex >= this.slides.length - 1) {
+                if (this.activeIndex >= this.slides.length) {
                     this.activeIndex = 0;
                     
                 }
